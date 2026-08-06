@@ -120,3 +120,135 @@ footer{
     padding:80px 8%;
     background:#1b1b1b;
 }
+
+/* ===== SECTION LAYOUT ===== */
+
+.section-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:80px;
+    max-width:1300px;
+    margin:auto;
+}
+
+.section-image{
+    flex:1;
+}
+
+.section-image img{
+    width:100%;
+    display:block;
+    border-radius:10px;
+}
+
+.section-text{
+    flex:1;
+}
+
+.section-text h2,
+.section-title{
+    font-size:42px;
+    color:#C9A227;
+    margin-bottom:30px;
+}
+
+.section-text p{
+    margin-bottom:20px;
+    color:#d5d5d5;
+    font-size:18px;
+}
+
+/* ===== PRACTICE AREAS ===== */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+    margin-top:50px;
+}
+
+.card{
+    border:1px solid rgba(201,162,39,.35);
+    padding:30px;
+    border-radius:10px;
+    transition:.35s;
+    background:#181818;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#C9A227;
+}
+
+.card h3{
+    color:#C9A227;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#cfcfcf;
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+    background:
+        linear-gradient(rgba(17,17,17,.88),rgba(17,17,17,.88)),
+        url("images/dubai-footer.jpg");
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+}
+
+.footer-logo{
+    width:180px;
+    margin-bottom:25px;
+}
+
+.footer-content h2{
+    color:#C9A227;
+    margin-bottom:10px;
+    letter-spacing:2px;
+}
+
+.footer-content p{
+    margin-bottom:18px;
+    color:#e6e6e6;
+}
+
+.copyright{
+    margin-top:50px;
+    font-size:14px;
+    opacity:.7;
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width:900px){
+
+.hero-content,
+.section-container{
+    flex-direction:column;
+}
+
+.hero-text h1{
+    font-size:42px;
+}
+
+.navbar{
+    flex-direction:column;
+    gap:20px;
+}
+
+.navbar ul{
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.cards{
+    grid-template-columns:1fr;
+}
+
+}

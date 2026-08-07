@@ -1,4 +1,3 @@
-// Smooth scroll enhancement
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -7,7 +6,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
         if (target) {
             target.scrollIntoView({
-                behavior: 'smooth'
+                behavior: "smooth"
             });
         }
     });

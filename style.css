@@ -709,15 +709,18 @@ padding:50px;
 }
 
 .footer-logo{
-
 width:180px;
-
+height:auto;
+object-fit:contain;
 margin-bottom:35px;
-
 transition:.35s;
-
 cursor:pointer;
+}
 
+.footer-logo{
+width:180px !important;
+height:auto !important;
+object-fit:contain;
 }
 
 .footer-logo:hover{

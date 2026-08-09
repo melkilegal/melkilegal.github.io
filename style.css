@@ -832,6 +832,10 @@ grid-template-columns:1fr;
 
 }
 
+.section-container.reverse{
+    grid-template-columns:1fr;
+}
+
 .section-container.reverse .section-image{
     order:2;
 }

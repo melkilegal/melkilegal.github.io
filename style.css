@@ -381,6 +381,17 @@ margin-bottom:20px;
 
 }
 
+#practice .section-tag{
+    display:block;
+    font-family:'Cormorant Garamond',serif;
+    font-size:60px;
+    font-weight:600;
+    letter-spacing:normal;
+    text-transform:none;
+    color:var(--white);
+    margin-bottom:70px;
+}
+
 .section-heading{
 
 text-align:center;

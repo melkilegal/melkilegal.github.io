@@ -856,6 +856,10 @@ grid-template-columns:1fr;
 
 @media (max-width:768px){
 
+#practice .section-tag{
+    font-size:42px;
+}
+   
 .navbar{
 
 flex-direction:column;

@@ -586,11 +586,13 @@ color:var(--gold);
 
 .practice-card p{
 
-font-size:17px;
+    font-size:17px;
 
-color:#cfcfcf;
+    color:#cfcfcf;
 
-line-height:1.8;
+    line-height:1.8;
+
+    margin-bottom:24px;
 
 }
 

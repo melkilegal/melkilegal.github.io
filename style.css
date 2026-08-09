@@ -585,15 +585,14 @@ color:var(--gold);
 }
 
 .practice-card p{
-
     font-size:17px;
-
     color:#cfcfcf;
-
     line-height:1.8;
+    margin:0;
+}
 
-    margin-bottom:24px;
-
+.practice-card p + p{
+    padding-top:24px;
 }
 
 /* ================= INTERNATIONAL EXPERIENCE ================= */

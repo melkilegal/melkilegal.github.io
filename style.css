@@ -960,6 +960,30 @@ color:#d5d5d5;
 
 }
 
+.contact-card p+p{
+
+margin-top:14px;
+
+}
+
+.contact-card a{
+
+color:#7dd3fc;
+
+text-decoration:underline;
+
+display:inline-block;
+
+padding:6px 0;
+
+}
+
+.contact-card a:hover{
+
+color:#a9e4fd;
+
+}
+
 .contact-buttons{
 
 display:flex;
